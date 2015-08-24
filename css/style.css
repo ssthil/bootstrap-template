@@ -1,0 +1,48 @@
+div#nav {
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+  padding: 20px;
+  transition: all 0.8s;
+}
+div#banner {
+  text-align: center;
+  background-color: #232F35;
+  /*background-image: url('../img/bnr-bg.jpg');
+  background-size: cover;
+  background-position: 0 0;*/
+  color: #f4f4f4;
+}
+.content h1{
+	color: #FDBC44;
+}
+.content p{
+	color: #35AFBE;
+  	font-size: 18px;
+}
+.content h1 > span{
+	color: #232F35;
+  	background-color: #FFEDCC;
+  	padding: 2px 12px;
+}
+.content {
+  padding: 13% 0 0;
+  position: relative;
+  height: 560px;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+  text-transform: uppercase;
+}
+div#about, div#products {
+  padding: 60px 0;
+}
+.on{
+	background-color: #222222 !important;
+	padding: 0 !important;
+}
